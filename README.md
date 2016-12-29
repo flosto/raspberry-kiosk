@@ -63,6 +63,7 @@ sudo apt-get dist-upgrade
 
 ## No Sleep Setting
 
+## Hide Cursor
 
 ## Open Tasks
 * [ ] Set up SurfStick
