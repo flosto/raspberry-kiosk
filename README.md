@@ -46,7 +46,14 @@ sudo apt-get dist-upgrade
 * Done
 
 ## Remove black borders
-* Only when HDMI in use
+* Due to a black frame around the content of the screen, it's helpful to remove those borders (overscan signal)
+* Edit the file ```/boot/config.txt```
+* Open terminal and enter ```sudo nano /boot/config.txt```
+* Remove ```#``` in ```#disable_overscan=1``` to uncomment
+* Add ```#``` in front of ```overscan_left=10```, ```overscan_right=10```, ```overscan_top=15``` and ```overscan_bottom=15``` if necessary
+* Save the file
+* Reboot
+* Done
 
 ## Content for the screen
 ### Google Sheets
