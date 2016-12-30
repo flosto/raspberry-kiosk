@@ -56,16 +56,17 @@ sudo apt-get dist-upgrade
 * Done
 
 ## Content for the screen
-### Google Sheets
+### Google Slides
+* A suitable way to quickly design your reception screen is to use Google Slides (as a part of Google Docs), to publish the file to the web and to open in in Chromium on your Raspberry Pi
 * https://docs.google.com/presentation
 * Page set up to resolution of screen (1920x1080 or 1080x1920)
 * design your screen
 * publish to the web, copy link
 
-## Configure autostart of chromium at launch
+### Configure autostart of chromium at launch
 
 
-## Auto-Refresh Chromium
+### Auto-Refresh Chromium
 
 
 ## No Sleep Setting
