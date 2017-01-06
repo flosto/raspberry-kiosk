@@ -109,6 +109,16 @@ sudo apt-get dist-upgrade
 * Reboot
 * Done
 
+## Auto Shutdown
+* To shut down your Raspberry Pi automatically add a short cronjob command
+* Open terminal and enter ```sudo crontab -e```
+* Add ```@reboot /sbin/shutdown -h 19:00``` to shutdown your Raspberry Pi at 7 p.m.
+* Set your preferred time in 24 hour format 
+* Save the file
+* Reboot
+* Done
+* **Hint:** Most displays provide an auto-off setting, so your screen will also turn off automatically after several minutes when the HDMI input is switched off
+
 ## Sources
 * https://www.raspberrypi.org/blog/introducing-pixel/
 * https://www.danpurdy.co.uk/web-development/raspberry-pi-kiosk-screen-tutorial/
@@ -116,3 +126,4 @@ sudo apt-get dist-upgrade
 * http://www.opentechguides.com/how-to/article/raspberry-pi/28/raspi-display-setting.html
 * https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=52759
 * http://tutorials-raspberrypi.de/raspberry-pi-gsm-modul-mobiles-internet/
+* https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=61745
